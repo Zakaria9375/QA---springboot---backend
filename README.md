@@ -1,4 +1,4 @@
-# QA-backend
+# Questions & Answers - Spring(Java)
 
 This repository is a Java application developed using the powerful Spring Framework, designed to serve as a backend for my frontend repository [QA-React](https://github.com/Zakaria9375/Q-A-react) 
 
