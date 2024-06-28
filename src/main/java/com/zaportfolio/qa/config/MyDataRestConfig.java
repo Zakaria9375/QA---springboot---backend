@@ -14,5 +14,12 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
         config.exposeIdsFor(Question.class, Answer.class, User.class);
+        cors
+                .addMapping("/api/**")
+                .allowedOrigins("https://za-qa.netlify.app/")
+                .allowedMethods("GET", "POST", "PUT", "DELETE")
+                .allowedHeaders("*")
+                .allowCredentials(true);
+
     }
 }
