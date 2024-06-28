@@ -75,8 +75,8 @@ The request body needs to be in JSON format and include the following properties
 ``` json
 {
   "content": "This is an edited answer",
-  "userId": "/users/2",
-  "questionId": "/questions/5",
+  "user": "/users/2",
+  "question": "/questions/5",
   "createdAt": "Data of creaion"
 }
 ```
@@ -93,8 +93,8 @@ The request body needs to be in JSON format and include the following properties
 ``` json
 {
   "content": "This is a new answer",
-  "userId": "/users/2",
-  "questionId": "/questions/5"
+  "user": "/users/2",
+  "question": "/questions/5"
 }
 ```
 
