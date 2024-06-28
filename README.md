@@ -119,9 +119,9 @@ Docker Hub Repository: [zakaria9375/qa](https://hub.docker.com/repository/docker
 To pull and run the Docker image, use the following command:
 
 ``` shell
-docker pull zakaria9375/qa:1.0
+docker pull zakaria9375/qa3:latest
 
-docker run -d -p 8050:8050 zakaria9375/qa:1.0
+docker run -d -p 8050:8050 zakaria9375/qa3:latest
 ```
 
 ## Database
